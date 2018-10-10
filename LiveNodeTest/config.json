@@ -1,0 +1,18 @@
+{
+  "ApplicationConfiguration": {
+    "Paths": {
+      "Chain": "Chain_{0}",
+      "Index": "Index_{0}",
+      "CertCache": "Certs"
+    },
+    "P2P": {
+      "Port": 20333,
+      "WsPort": 10333
+    },
+    "Urls": {
+      "AddressUrl": "http://localhost:4000/address/{0}",
+      "AssetUrl": "http://localhost:4000/api/main_net/v1/get_asset/{0}",
+      "TransactionUrl": "http://localhost:4000/transaction/{0}"
+    }
+  }
+}
